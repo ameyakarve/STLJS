@@ -1,0 +1,34 @@
+<html>
+<head>
+	<title>STL PAGE</title>
+	<script type="text/javascript" src="stl.js"></script>
+	<script type="text/javascript">
+		var intConstructor = function (object) {
+			return true;
+			if(typeof(object) === 'number')
+			{
+				return true;
+			}
+			return false;
+		};
+		var intCompare = function (one, two)
+		{
+			if(one.key<two.key) return -1;
+			if(one.key>two.key) return 1;
+			return 0;
+		};
+		var intSet = new STLSet(intConstructor, intCompare);
+		intSet.insert(false, {key: 5, value: 5});
+		intSet.insert(false, {key: 1, value: 5});
+		intSet.insert(false, {key: 1, value: 6});
+		intSet.insert(false, {key: 19, value: 5});
+		intSet.remove({key: 5});
+
+				
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>
