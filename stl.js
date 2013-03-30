@@ -222,3 +222,29 @@ STLSet.prototype.contains = function(value) {
 	}
 	return found;
 };
+STLSet.prototype.traverse = function (process) {
+	function inOrder(node) {
+		if(node.left !== null) {
+			inOrder(node.left);
+		}
+		process.call(this, node);
+		if(node.right !== null) {
+			inOrder(node.right);
+		}
+	}
+	inOrder(this._root);
+};
+STLSet.prototype.size = function() {
+	var length = 0;
+	this.traverse(function(node) {
+		length++;
+	});
+	return length;
+};
+STLSet.prototype.toArray = function() {
+	var result = [];
+	this.traverse(function(node) {
+		result.push(node.value);
+	});
+	return result;
+};
