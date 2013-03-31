@@ -4,8 +4,156 @@
 		"selected_items":
 		[
 			[
+				"filte",
+				"filterFn"
+			],
+			[
+				"for",
+				"for	for (…) {…} (Improved Native For-Loop)"
+			],
+			[
+				"va",
+				"validateFn"
+			],
+			[
+				"compa",
+				"compareFn"
+			],
+			[
+				"this",
+				"thisArg"
+			],
+			[
+				"valu",
+				"value"
+			],
+			[
+				"A",
+				"Array"
+			],
+			[
+				"val",
+				"value"
+			],
+			[
+				"ind",
+				"indexOf"
+			],
+			[
+				"jo",
+				"join"
+			],
+			[
+				"join",
+				"joinFunctionSpecified"
+			],
+			[
 				"new",
-				"newEvent2"
+				"newArray"
+			],
+			[
+				"arg",
+				"argValue"
+			],
+			[
+				"retu",
+				"return"
+			],
+			[
+				"filt",
+				"filterFn"
+			],
+			[
+				"in",
+				"index"
+			],
+			[
+				"ret",
+				"return"
+			],
+			[
+				"fil",
+				"filterFn"
+			],
+			[
+				"re",
+				"returnValue"
+			],
+			[
+				"return",
+				"returnValue"
+			],
+			[
+				"int",
+				"intCompare"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"value",
+				"valueFilterFn"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"type",
+				"typeof"
+			],
+			[
+				"comp",
+				"compareFn"
+			],
+			[
+				"repla",
+				"replacement"
+			],
+			[
+				"repl",
+				"replacement"
+			],
+			[
+				"rep",
+				"replacement"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"curre",
+				"current"
+			],
+			[
+				"n",
+				"null"
+			],
+			[
+				"curr",
+				"current"
+			],
+			[
+				"cur",
+				"current"
+			],
+			[
+				"left",
+				"leftIndex"
+			],
+			[
+				"com",
+				"compareFn"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"intC",
+				"intCompare"
 			],
 			[
 				"lo",
@@ -68,10 +216,6 @@
 				"ingredientTemplate"
 			],
 			[
-				"re",
-				"returnData"
-			],
-			[
 				"inp",
 				"inputView"
 			],
@@ -84,79 +228,26 @@
 	"buffers":
 	[
 		{
-			"file": "/home/ameya/Code/flight/demo/app/scripts/app.js",
+			"file": "stl.js",
 			"settings":
 			{
-				"buffer_size": 247,
+				"buffer_size": 5925,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "Package Control Messages\n========================\n\nSublimeLinter:\n-------------\n\n  SublimeLinter\n  =============\n  \n  SublimeLinter is a plugin that supports \"lint\" programs (known as \"linters\"). SublimeLinter highlights\n  lines of code the linter deems to contain (potential) errors. It also\n  supports highlighting special annotations (for example: TODO) so that they\n  can be quickly located.\n  \n  SublimeLinter has built in linters for the following languages:\n  \n  * C/C++ - lint via `cppcheck`\n  * CoffeeScript - lint via `coffee -s -l`\n  * CSS - lint via built-in [csslint](http://csslint.net)\n  * Git Commit Messages - lint via built-in module based on [A Note About Git Commit Messages](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html).\n  * Haml - syntax check via `haml -c`\n  * HTML - lint via `tidy` (actually [tidy for HTML5](http://w3c.github.com/tidy-html5/))\n  * Java - lint via `javac -Xlint`\n  * JavaScript - lint via built in [jshint](http://jshint.org), [jslint](http://jslint.com), or the [closure linter (gjslint)](https://developers.google.com/closure/utilities/docs/linter_howto) (if installed)\n  * Lua - syntax check via `luac`\n  * Objective-J - lint via built-in [capp_lint](https://github.com/aparajita/capp_lint)\n  * Perl - lint via [Perl:Critic](http://perlcritic.com/) or syntax+deprecation check via `perl -c`\n  * PHP - syntax check via `php -l`\n  * Puppet - syntax check via `puppet parser validate`\n  * Python - native, moderately-complete lint\n  * Ruby - syntax check via `ruby -wc`\n  * XML - lint via `xmllint`\n  \n  \n  For more information:\n  ---------------------\n  Please take the time to read the documentation:\n  \n  * Online - https://github.com/SublimeLinter/SublimeLinter\n  * Sublime Text - Select Preferences->Package Settings->SublimeLinter->README\n  \n  \n  IMPORTANT\n  \n  Do NOT edit the default SublimeLinter settings. Your changes will be lost\n  when SublimeLinter is updated. ALWAYS edit the user SublimeLinter settings\n  by selecting \"Preferences->Package Settings->SublimeLinter->Settings - User\".\n  Note that individual settings you include in your user settings will **completely**\n  replace the corresponding default setting, so you must provide that setting in its entirety.\n  \n",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 2250,
-				"line_ending": "Unix",
-				"name": "Package Control Messages",
-				"scratch": true
-			}
-		},
-		{
-			"file": "/home/ameya/Code/flight/lib/model.js",
-			"settings":
-			{
-				"buffer_size": 1658,
+				"buffer_size": 546,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "# laces.js\n\nLaces.js provides the M in MVC, while you tie the rest.\n\n * **[Rationale](#rationale)**\n * **[Basic Usage](#basic-usage)**\n   * [Nested Properties](#nested-properties)\n   * [Maps and Arrays](#maps-and-arrays)\n   * [Custom Bindings and Templates](#custom-bindings-and-templates)\n   * [Events](#events)\n   * [Require.js Usage](#requirejs-usage)\n * **[Add-ons](#add-ons)**\n   * [Laces.js Tie](#tie)\n   * [Laces.js Local](#local)\n * **[Demo](#demo)**\n * **[Compatibility](#compatibility)**\n\n\n<a id=\"rationale\"></a>\n## Rationale\n\nWhile there are plenty of MVC frameworks available for JavaScript, most of them\ndictate a variety of other application design choices on you. For example,\nBackbone.js requires that you use underscore.js, Ember.js comes with its own\ntemplating system, AngularJS requires you to extend the DOM, and so on. A few\nframeworks require (or strongly encourage) you to use CoffeeScript, and many\ncarry significant overhead.\n\nLaces.js by contrast provides you with a Model, but nothing more. It provides\nyou with the laces to tie your model to whatever View or Controller you prefer.\nIt consists of about 700 lines of JavaScript code, including whitespace and\ncomments (7K minified). Optionally, you can add one or more add-ons for extra\nfeatures.\n\nThe project was created because I wanted a good model to use with an HTML5 map\neditor for a [game engine](https://github.com/arendjr/PlainText) I'm working on.\nThe map editor has a canvas view and uses a custom WebSockets-based API for \nserver communication, leaving me with little use for templating engines and XHR\nintegration most other MVC frameworks provide.\n\n\n<a id=\"basic-usage\"></a>\n## Basic Usage\n\nLaces.js works as a model with automatic data binding. First, you create a\nmodel:\n\n```js\nvar model = new LacesModel();\n```\n\nWe can set properties using the set() method:\n\n```js\nmodel.set(\"firstName\", \"Arend\");\nmodel.set(\"lastName\", \"van Beelen\");\n```\n\nOnce a property is set, it can be accessed using dot notation on the model\nobject:\n\n```js\nmodel.firstName; // \"Arend\"\n```\n\nAs a shorthand form, properties can also be set using nothing but the\nconstructor:\n\n```js\nvar model = new LacesModel({\n    firstName: \"Arend\",\n    lastName: \"van Beelen\"\n});\n```\n\nYou can also define properties that reference other properties. We call these\ncomputed properties:\n\n```js\nmodel.set(\"fullName\", function() { return this.firstName + \" \" + this.lastName; });\n\nmodel.fullName; // \"Arend van Beelen\"\n```\n\nWhen a property is updated, any computed properties that depend on its value are\nalso updated:\n\n```js\nstate.firstName = \"Arie\";\n\nstate.fullName; // \"Arie van Beelen\"\n```\n\nAs you can see, changes to the value of a single property now automatically\nupdate all properties that depend on that property. This behavior can also be\nchained, so that a property that depends on fullName for example, also gets\nupdated when firstName or lastName is modified.\n\n\n<a id=\"nested-properties\"></a>\n### Nested Properties\n\nIt is also possible to use nested properties within your model. Example:\n\n```js\nmodel.set(\"user\", null);\nmodel.set(\"displayName\", function() { return this.user && this.user.name || \"Anonymous\"; });\n```\n\nThere are now several ways of modifying the state.user.name property, each of\nwhich will reflect on the displayName properly:\n\n```js\nmodel.user = { name: \"Arend\" };\n\nmodel.displayName; // \"Arend\"\n\nmodel.user.name = \"Arie\";\n\nmodel.displayName; // \"Arie\"\n\nmodel.user = null;\n\nmodel.displayName; // \"Anonymous\"\n```\n\n\n<a id=\"maps-and-arrays\"></a>\n### Maps and Arrays\n\nThe properties of a Laces Model can contain more than just primitives. They also\nsupport Maps (also known as dictionaries) and Arrays.\n\nYou may not have realized it, but you've already seen a Laces Map in action. The\nexample above, with the nested properties, used a Laces Map. Every time you\nassign assign a plain JavaScript object to a Laces property, the value gets\nconverted automatically to a Map. The assignment of the user object above could\nthus also have been written as:\n\n```js\nmodel.user = new LacesMap({ name: \"Arend\" });\n```\n\nThe API for a Laces Map is the same as a Laces Model. If you want to add a\npreviously unknown property to a Map, you have to use set(). If you want to\nremove a property from a Map, you should use remove():\n\n```js\nmodel.user.remove(\"name\");\n```\n\nYou can iterate over the properties in a Map in exactly the same way as a plain\nJavaScript object. Just don't forget to use the hasOwnProperty() guard (which\nyou should do anyway, according to jslint):\n\n```js\nfor (var propertyName in model.user) {\n    if (model.user.hasOwnProperty(propertyName)) {\n        console.log(\"Property \" + propertyName + \" has value: \" + model.user[propertyName]);\n    }\n}\n```\n\nUnlike a Model, a Map does not support computed properties, and does not fire\nevents of the type \"change:&lt;propertyName&gt;\". Assigning a function\nto a property would simply set the value to be that function. If you really want\ncomputed properties in nested objects, it is possible to nest Models:\n\n```js\nmodel.user = new LacesModel({ name: \"Arend\" });\n```\n\nArrays are supported too, and a Laces Array is created implicitly when you\nassign an array to a Laces property:\n\n```js\nmodel.user.friends = [];\n```\n\nYou may also assign a Laces Array explicitly:\n\n```js\nmodel.user.friends = new LacesArray();\n```\n\nThe API for a Laces Array is exactly the same as for a regular JavaScript array,\nbut when setting values in the array you should use the set() method rather than\nbracket notation to make sure the changes are properly registered.\n\nArrays can be bound to in the same way as a Laces Map or Model:\n\n```js\nmode.user.friends.bind(\"change\", function(event) { console.log(\"Friends changed\"); });\n```\n\nRead on to the next section for more about bindings.\n\n\n<a id=\"custom-bindings-and-templates\"></a>\n### Custom Bindings and Templates\n\nYou may be interested in binding a custom callback to whenever one of those\nproperties changes value:\n\n```js\nmodel.bind(\"change:fullName\", function(event) { $(\".full-name\").text(event.value); });\n```\n\nYou can also watch the whole model instead of a specific property. This is an\neffective way to integrate with template systems. For example, the following\ncode shows how to render a Hogan.js template when the model changes:\n\n```js\nvar addressCardTemplate = Hogan.compile(\"<div class=\\\"address-card\\\">\" +\n                                        \"<p>{{fullName}}</p>\" +\n                                        \"<p>{{address}}</p>\" +\n                                        \"<p>{{postalCode}} {{cityName}}</p>\" +\n                                        \"<p>{{countryName}}</p>\" +\n                                        \"</div>\");\nmodel.bind(\"change\", function(event) { addressCardTemplate.render(model); });\n```\n\nThe listener callback function gets executed in the scope of the model to which\nit is bound.\n\nAn interesting feature of the bindings is that the listener callback can be\nfired immediately after binding. This may be useful for initialization and\ncan save you from some code duplication:\n\n```js\nmodel.bind(\"change:fullName\", function(event) { $(\".full-name\").text(event.value); }, { initialFire: true });\n```\n\n\n<a id=\"events\"></a>\n### Events\n\nAs you saw above, Laces objects generate change events whenever something\nchanges. Here's an overview of all the events that get generated.\n\n<table>\n<tr><td><em>Event name</em></td><td><em>Description</em></td></tr>\n<tr><td><b>add</b></td><td>Generated when a new property is set on map or\nmodel, or a new element is added to an array.</td></tr>\n<tr><td><b>update</b></td><td>Generated when an existing property's value\nor an existing array element is changed.</td></tr>\n<tr><td><b>remove</b></td><td>Generated when a property or an array element\nis removed.</td></tr>\n<tr><td><b>change</b></td><td>Generated on any kind of change (add, update\nor remove).</td></tr>\n<tr><td><b>change:&lt;propertyName&gt;</b></td><td>Generated when a specific\nproperty is changed (Laces Models only).</td></tr>\n</table>\n\nAll events carry a payload, which is passed as the event object to the listener\ncallback function.\n\nIf the object is a Laces Map or Model, the event object contains the following\nproperties:\n\n<table>\n<tr><td><em>Property</em></td><td><em>Description</em></td></tr>\n<tr><td><b>name</b></td><td>Name of the triggered event (\"add\", \"update\",\netc..)</td></tr>\n<tr><td><b>key</b></td><td>Key of the property for which the event is\ngenerated.</td></tr>\n<tr><td><b>value</b></td><td>Value of the property for which the event is\ngenerated. Undefined if this is a remove event.</td></tr>\n<tr><td><b>oldValue</b></td><td>Previous value of the property (if\napplicable).</td></tr>\n</table>\n\nIf the object is a Laces Array, the event object contains the following\nproperties:\n\n<table>\n<tr><td><em>Property</em></td><td><em>Description</em></td></tr>\n<tr><td><b>name</b></td><td>Name of the triggered event (\"add\", \"update\",\netc..)</td></tr>\n<tr><td><b>elements</b></td><td>Array of affected elements (those that\nwere added, updated or removed).</td></tr>\n</table>\n\n\n<a id=\"requirejs-usage\"></a>\n### Require.js Usage\n\nIf you want to use Laces.js with Require.js, you can do so easily. Example:\n\n```js\nrequire([\"laces\"], function(Laces) {\n     var model = new Laces.Model({\n          firstName: \"Arend\",\n          lastName: \"van Beelen\"\n     });\n});\n```\n\nAs you can see, the LacesModel type is now defined as the Model property on\nthe Laces object. The same applies to the other Laces types.\n\n\n<a id=\"add-ons\"></a>\n## Add-ons\n\n<a id=\"tie\"></a>\n### Laces.js Tie\n\nLaces.js Tie is an add-on that adds two-way data bindings between a Laces Model\nand a rendered template. Laces.js Tie uses HTML5 *data attributes* to create its\nbindings and is template-engine agnostic. It has already been confirmed to work\nin tandem with Handlebars.js, Hogan.js and Underscore.js's built-in templates,\nin addition to plain HTML strings.\n\nFor example, here's how to tie a Hogan.js template to a Laces Model:\n\n```js\nvar template = Hogan.compile(myTemplateString);\nvar tie = new LacesTie(model, template);\nsomeDomElement.appendChild(tie.render());\n```\n\nIf the template iterates over an array or other list, you may want to rerender\nit when the list changes. In such case you can use something like the following\ninstead of the last line from above:\n\n```js\nmodel.someArray.bind(\"add remove\", function() {\n     someDomElement.innerHTML = \"\";\n     someDomElement.appendChild(tie.render());\n}, { initialFire: true });\n```\n\nAn actual template might look something like this (using Hogan.js as example):\n\n```html\n<ul>\n     {{#someArray}}\n     <li>\n          <span data-laces=\"{ property: someArray[{{index}}].name, editable: true }\"></span>\n     </li>\n     {{/someArray}}\n</ul>\n```\n\nOptions can be specified using a single mapping with the data-laces\nattribute, or with separate data-laces-* attributes. The above span element\ncould thus also have been written like this:\n\n```html\n<span data-laces-property=\"someArray[{{index}}].name\" data-laces-editable=\"true\"></span>\n```\n\nHere is an overview of the supported optons:\n\n<table>\n<tr><td><em>Option</em></td><td><em>Value</em></td><td><em>Description</em></td></tr>\n<tr><td><b>property</b></td><td>property reference</td><td>Reference to the\nproperty whose value will be used for the content of the element. The content\nwill automatically be updated if the property value changes. If the element is\nan input element, the property value will be the input's value and if the\nvalue of the input changes, the change will be written back to the\nmodel.</td></tr>\n<tr><td><b>editable</b></td><td>true | false</td><td>If a property is tied to\na non-input element, use this option to make it editable. The element will be\nreplaced by an input element on double-click (by default).</td></tr>\n<tr><td><b>default</b></td><td>any value</td><td>Default value to use if the\nproperty referenced by the property option is not set. If not given, an empty\nstring would be used (or the number 0 for an input element with a number\ntype).</td></tr>\n<tr><td><b>visible</b></td><td>property reference</td><td>Reference to the\nproperty that will determine the visibility of the element. If the property\nvalue evaluates to false, the display style will be set to none. Precede the\nreference with an exclamation mark (!) to reverse the evaluation.</td></tr>\n<tr><td><b>checked</b></td><td>property reference</td><td>Reference to the\nproperty that will determine whether the element is checked. If the property\nvalue evaluates to true, the checked attribute will be set. Precede the\nreference with an exclamation mark (!) to reverse the evaluation.</td></tr>\n<tr><td><b>disabled</b></td><td>property reference</td><td>Reference to the\nproperty that will determine whether the element is disabled. If the property\nvalue evaluates to true, the disabled attribute will be set. Precede the\nreference with an exclamation mark (!) to reverse the evaluation.</td></tr>\n</table>\n\nNote that the render() function returns a DocumentFragment. You should not\nconvert this fragment into a string before adding it to the DOM, as you would\nlose any live bindings.\n\n\n<a id=\"local\"></a>\n### Laces.js Local\n\nLaces.js Local provides a very simple extension over the default Laces Model.\nA Local Model will automatically sync with LocalStorage:\n\n```js\nvar model = new LacesLocalModel('my-model'));\n```\n\nAny properties you set on the model will still be there when the page is\nreloaded.\n\n\n<a id=\"demo\"></a>\n## Demo\n\nThere's a bunch of demos included in this repository, just check them out.\n\nFor a real-world example, see the PlainText\n[map model](https://github.com/arendjr/PlainText/blob/master/web/mapmodel/model.js).\n\nYou might also be interested in the\n[TodoMVC example using Laces.js](https://github.com/arendjr/todomvc/tree/gh-pages/labs/architecture-examples/lacesjs).\n\nAnd there's even a variation on the TodoMVC example that uses\n[the Laces.js Tie and Laces.js Local add-ons](https://github.com/arendjr/todomvc/tree/gh-pages/labs/architecture-examples/laces_addons).\n\n\n<a id=\"compatibility\"></a>\n## Compatibility\n\n- Chrome 5+\n- IE 9+\n- Firefox 4+\n- Safari 5+\n- Opera 11.60+\n",
-			"file": "/home/ameya/Code/flight/lib/laces.js/README.md",
-			"file_size": 14161,
-			"file_write_time": 1364391499000000,
+			"file": "stl-es6.js",
 			"settings":
 			{
-				"buffer_size": 14161,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/ameya/Code/flight/demo/app/scripts/testComponent.js",
-			"settings":
-			{
-				"buffer_size": 452,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/ameya/Code/flight/lib/README.md",
-			"settings":
-			{
-				"buffer_size": 8841,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/ameya/Code/flight/README.md",
-			"settings":
-			{
-				"buffer_size": 21606,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/ameya/Code/flight/lib/model-local-lib.js",
-			"settings":
-			{
-				"buffer_size": 2178,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/ameya/Code/flight/lib/model-lib.js",
-			"settings":
-			{
-				"buffer_size": 26100,
+				"buffer_size": 11043,
 				"line_ending": "Unix"
 			}
 		}
@@ -306,17 +397,19 @@
 	"file_history":
 	[
 		"/home/ameya/Code/flight/lib/model-lib.js",
+		"/home/ameya/Code/flight/demo/app/scripts/app.js",
+		"/home/ameya/Code/flight/lib/model.js",
+		"/home/ameya/Code/flight/lib/laces.js/README.md",
+		"/home/ameya/Code/flight/demo/app/scripts/testComponent.js",
+		"/home/ameya/Code/flight/lib/README.md",
+		"/home/ameya/Code/flight/README.md",
 		"/home/ameya/Code/flight/lib/model-local-lib.js",
 		"/home/ameya/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
 		"/home/ameya/Code/flight/lib/laces",
-		"/home/ameya/Code/flight/demo/app/scripts/testComponent.js",
 		"/home/ameya/Code/flight/demo/app/scripts/main.js",
 		"/home/ameya/Code/flight/demo/app/index.html",
 		"/home/ameya/Code/flight/lib/component.js",
-		"/home/ameya/Code/flight/lib/model.js",
 		"/home/ameya/Code/flight/lib/compose.js",
-		"/home/ameya/Code/flight/lib/laces.js/README.md",
-		"/home/ameya/Code/flight/README.md",
 		"/home/ameya/Code/Brassplate/webapp/app/scripts/app.coffee",
 		"/home/ameya/Code/Brassplate/webapp/app/scripts/main.coffee",
 		"/home/ameya/Code/flight/lib/advice.js",
@@ -368,6 +461,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"forEac",
+			"forEach",
+			"insert",
+			"Vector",
+			"Set",
+			"console",
 			"arguement",
 			"change",
 			"(#",
@@ -489,13 +588,7 @@
 			"held",
 			"fire",
 			"change",
-			"defaultAtt",
-			"default",
-			"this.attr",
-			"mixin",
-			"flight",
-			"../components/flight",
-			"lib"
+			"defaultAtt"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -503,6 +596,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"STLVector",
 			"argument",
 			"'",
 			"  ",
@@ -519,23 +613,23 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/home/ameya/Code/flight/demo/app/scripts/app.js",
+					"file": "stl.js",
 					"settings":
 					{
-						"buffer_size": 247,
+						"buffer_size": 5925,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								247,
-								247
+								5546,
+								5546
 							]
 						],
 						"settings":
@@ -671,27 +765,29 @@
 								"Ruby on Rails": "ruby"
 							},
 							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 3572.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
+					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 2250,
+						"buffer_size": 546,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2250,
-								2250
+								458,
+								458
 							]
 						],
 						"settings":
@@ -827,349 +923,35 @@
 								"Ruby on Rails": "ruby"
 							},
 							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"word_wrap": true
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
-				},
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
 				{
 					"buffer": 2,
-					"file": "/home/ameya/Code/flight/lib/model.js",
+					"file": "stl-es6.js",
 					"settings":
 					{
-						"buffer_size": 1658,
+						"buffer_size": 11043,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								25,
-								25
-							]
-						],
-						"settings":
-						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110.0
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"browser": true,
-								"evil": true,
-								"regexdash": true,
-								"sub": true,
-								"trailing": true,
-								"wsh": true
-							},
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": true,
-							"sublimelinter_delay": 2.0,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": false,
-							"sublimelinter_mark_style": "outline",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 425.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/home/ameya/Code/flight/lib/laces.js/README.md",
-					"settings":
-					{
-						"buffer_size": 14161,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1765,
-								1765
-							]
-						],
-						"settings":
-						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110.0
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"browser": true,
-								"evil": true,
-								"regexdash": true,
-								"sub": true,
-								"trailing": true,
-								"wsh": true
-							},
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": true,
-							"sublimelinter_delay": 2.0,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": false,
-							"sublimelinter_mark_style": "outline",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/Markdown/Markdown.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 680.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/home/ameya/Code/flight/demo/app/scripts/testComponent.js",
-					"settings":
-					{
-						"buffer_size": 452,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								408,
-								408
+								6776,
+								6776
 							]
 						],
 						"settings":
@@ -1309,642 +1091,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 17.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/home/ameya/Code/flight/lib/README.md",
-					"settings":
-					{
-						"buffer_size": 8841,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6885,
-								6885
-							]
-						],
-						"settings":
-						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110.0
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"browser": true,
-								"evil": true,
-								"regexdash": true,
-								"sub": true,
-								"trailing": true,
-								"wsh": true
-							},
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": true,
-							"sublimelinter_delay": 2.0,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": false,
-							"sublimelinter_mark_style": "outline",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/Markdown/Markdown.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 3590.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "/home/ameya/Code/flight/README.md",
-					"settings":
-					{
-						"buffer_size": 21606,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								21606,
-								21606
-							]
-						],
-						"settings":
-						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110.0
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"browser": true,
-								"evil": true,
-								"regexdash": true,
-								"sub": true,
-								"trailing": true,
-								"wsh": true
-							},
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": true,
-							"sublimelinter_delay": 2.0,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": false,
-							"sublimelinter_mark_style": "outline",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/Markdown/Markdown.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 12482.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "/home/ameya/Code/flight/lib/model-local-lib.js",
-					"settings":
-					{
-						"buffer_size": 2178,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								890,
-								890
-							]
-						],
-						"settings":
-						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110.0
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"browser": true,
-								"evil": true,
-								"regexdash": true,
-								"sub": true,
-								"trailing": true,
-								"wsh": true
-							},
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": true,
-							"sublimelinter_delay": 2.0,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": false,
-							"sublimelinter_mark_style": "outline",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "/home/ameya/Code/flight/lib/model-lib.js",
-					"settings":
-					{
-						"buffer_size": 26100,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4880,
-								4880
-							]
-						],
-						"settings":
-						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110.0
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"browser": true,
-								"evil": true,
-								"regexdash": true,
-								"sub": true,
-								"trailing": true,
-								"wsh": true
-							},
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": true,
-							"sublimelinter_delay": 2.0,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": false,
-							"sublimelinter_mark_style": "outline",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1532.0,
+						"translation.y": 4667.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1969,11 +1116,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
